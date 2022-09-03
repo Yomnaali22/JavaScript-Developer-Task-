@@ -1,6 +1,6 @@
 const data = require("./../data.json");
 const express = require("express");
-const PORT = 3000;
+const PORT = 3001;
 const app = express();
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: true }));
